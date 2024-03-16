@@ -1,5 +1,12 @@
+# Database
 db.sqlite3
+
+# Python
 .venv
 __pycache__
 *.pyc
+
+# Vim
+*~
+*.swo
 *.swp
