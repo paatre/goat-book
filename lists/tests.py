@@ -1,7 +1,7 @@
 from django.http import HttpRequest
 from django.test import TestCase
+
 from lists.models import Item
-from lists.views import home_page
 
 
 class HomePageTest(TestCase):
@@ -48,4 +48,3 @@ class ItemModelTest(TestCase):
         second_saved_item = saved_items[1]
         self.assertEqual(first_saved_item.text, "The first (ever) list item")
         self.assertEqual(second_saved_item.text, "Item the second")
-
