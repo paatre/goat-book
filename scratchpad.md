@@ -9,4 +9,4 @@
 - ~~Add unique URLs for each list~~
 - ~~Add URLs for adding a new item to an existing list via POST~~
 - ~~Support more than one list! _lists/models.py_~~
-- Refactor away some duplications in `urls.py`
+- ~~Refactor away some duplications in `urls.py`~~
