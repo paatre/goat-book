@@ -6,7 +6,7 @@
 - ~~Remove `time.sleep`s _functional_tests.py_~~
 - ~~Add a URL for creating a new list via POST~~
 - ~~Adjust model so that items are associated with different lists~~
-- Support more than one list! _lists/models.py_
-- Add unique URLs for each list
-- Add URLs for adding a new item to an existing list via POST
-
+- ~~Add unique URLs for each list~~
+- ~~Add URLs for adding a new item to an existing list via POST~~
+- ~~Support more than one list! _lists/models.py_~~
+- Refactor away some duplications in `urls.py`
