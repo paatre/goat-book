@@ -1,6 +1,9 @@
 # Database
 db.sqlite3
 
+# Static files
+/static
+
 # Python
 .venv
 __pycache__
@@ -10,3 +13,4 @@ __pycache__
 *~
 *.swo
 *.swp
+
