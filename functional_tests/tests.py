@@ -64,8 +64,6 @@ class NewVisitorTest(LiveServerTestCase):
         inputbox.send_keys(Keys.ENTER)
 
         # The page updates again, and now shows both items on here list
-        table = self.browser.find_element(By.ID, "id_list_table")
-        rows = table.find_elements(By.TAG_NAME, "tr")
         self.wait_for_row_in_list_table("1: Buy peacock feathers")
         self.wait_for_row_in_list_table("2: Use peacock feathers to make a fly")
 
