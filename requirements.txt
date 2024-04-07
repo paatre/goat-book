@@ -1,2 +1,1 @@
-django<5
-selenium
+Django==4.2.11
