@@ -3,11 +3,10 @@ FROM python:slim
 RUN python -m venv /venv
 ENV PATH="/venv/bin:$PATH"
 
-COPY requirements.txt requirements.txt
-RUN pip install -r requirements.txt
+RUN pip install "django<5" gunicorn whitenoise
 
 COPY src /src
 
 WORKDIR /src
 
-CMD python manage.py runserver 0.0.0.0:8888
+CMD gunicorn --bind :8888 superlists.wsgi:application
